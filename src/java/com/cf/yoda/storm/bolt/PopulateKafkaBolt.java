@@ -28,7 +28,7 @@ public class PopulateKafkaBolt<K, V> extends BaseRichBolt {
 	private static final long serialVersionUID = 1L;
 	private static final Logger LOG = LoggerFactory.getLogger(PopulateKafkaBolt.class);
 	private OutputCollector collector;
-	public static final String KAFKA_HOST_PORT = "172.20.9.240:9092,172.20.11.175:9092";
+	public static final String KAFKA_HOST_PORT = "172.xxxx:9092,172.2xxxxxxxx:9092";
 	private String TOPIC = "";
 	public static final String BOLT_KEY = "key";
 	public static final String BOLT_MESSAGE = "message";
